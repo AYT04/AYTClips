@@ -1,0 +1,16 @@
+{
+  "name": "Search",
+  "productName": "Search",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "addison",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "28.2.0"
+  }
+}
