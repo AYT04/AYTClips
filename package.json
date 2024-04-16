@@ -1,11 +1,11 @@
 {
-  "name": "Search",
-  "productName": "Search",
-  "description": "My Electron application description",
+  "name": "AYTClips",
+  "productName": "Clips",
+  "description": "Browse YouTube Clips via AYTClips!",
   "keywords": [],
   "main": "./main.js",
   "version": "1.0.0",
-  "author": "addison",
+  "author": "AddisonYT04",
   "scripts": {
     "start": "electron ."
   },
