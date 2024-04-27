@@ -11,142 +11,142 @@
 # sure what I am doing with this lol,
 # I guess something will come to my mind.
 
-cat > headsupbirthdaysecurityquestions.html
-cat > youcanhaveyourcakeandeatittoo.html
-cat > end2endencryption.html
-cat > depression.html
-cat > buffer.html
-cat > qemukvm.html
-cat > entropydataset.html
-cat > dowhatyouenjoyinyourlife.html
-cat > oldformofpemdas.html
-cat > backup.html
-cat > graphicsapi.html
-cat > compilekernel.html
-cat > hackintosh.html
-cat > iosdevelopment.html
-cat > bittorrent.html
-cat > tracker.html
-cat > datayoureproducecandictatethelifegoingforward.html
-cat > inordertofunctiontheworldwecreated.html
-cat > downloadingfromyourservice.html
-cat > privacyisabasichumanright.html
-cat > idontcarebutdocare.html
-cat > ipaddress.html
-cat > cache.html
-cat > macros.html
-cat > adminprivileges.html
-cat > badportforwarding.html
-cat > 18.html
-cat > executingfiles.html
-cat > encryptionkeys.html
-cat > wo.html
-cat > relationships.html
-cat > firewall.html
-cat > billc11billc10.html
-cat > masturbation.html
-cat > donthelp.html
-cat > appbased2fa.html
-cat > sudoplusroot.html
-cat > woof.html
-cat > cpu.html
-cat > protectyourdata.html
-cat > softwareemulation.html
-cat > callitanight.html
-cat > linda.html
-cat > supplychainattack.html
-cat > androidrgbcolourspace.html
-cat > 5muslimprayers.html
-cat > sellingsoftwareandopensource.html
-cat > rosettatranslatesx86toarm.html
-cat > youtubecsai.html
-cat > preventphisingemailscams.html
-cat > ilysmidkhtf.html
-cat > whyusanantiviruswhenthereiswindowsdefender.html
-cat > howtosetupavpnongtaonline.html
-cat > eh.html
-cat > netflixareyoustillwatchingsomeonesdaughter.html
-cat > dmcaexception.html
-cat > 30virtualmachinespreformance.html
-cat > hahaha.html
-cat > freedominternet.html
-cat > moralargument.html
-cat > ithinkthatsbad.html
-cat > tics.html
-cat > firepit.html
-cat > havingmultiplechoices.html
-cat > humantrafficking.html
-cat > ttyl.html
-cat > cpuemulation.html
-cat > nevershootinorder.html
-cat > perspective.html
-cat > aiandmachinelearning.html
-cat > privatecomputecore.html
-cat > videogamealive.html
-cat > ddos.html
-cat > macaddress.html
-cat > schoolstudentnames.html
-cat > pciexpressslot.html
-cat > compatibiltylayer.html
-cat > copyrightandtrademark.html
-cat > edwardsnowden
-cat > packetloss.html
-cat > patience.html
-cat > ifyoufollowyourpassionitllleadtosuccess.html
-cat > ispiracymorallyok.html
-cat > fivefeaturesofdatawarehousing.html
-cat > jsonmetadata.html
-cat > cyberattack.html
-cat > neverdownloadanythingfromotherswithoutsendingitthroughsomethinglikevirustotal.html
-cat > privacyisgettingrazarthin.html
-cat > md5checksum.html
-cat > dataismoreworthhangold.html
-cat > mostcomputerscanrunavmextrasecurity.html
-cat > sexeducation.html
-cat > maskbankingdetails.html
-cat > literally.html
-cat > suckstobealinuxuser.html
-cat > dazwatcheshorror.html
-cat > ingamedoxxer.html
-cat > job.html
-cat > trustlevelcolourcoded.html
-cat > weewoo.html
-cat > mostdo.html
-cat > favouritememoriessantaclause.html
-cat > twitchterrified.html
-cat > macros.html
-cat > muta.html
-cat > beagoodpersion.html
-cat > surveysaresketchy.html
-cat > youserious.html
-cat > lemon.html
-cat > mentaloutlawprivacy.html
-cat > suckitoffandthrowitaway.html
-cat > linuxmonolithickernel.html
-cat > mousesoftware.html
-cat > usingproprietarysoftware.html
-cat > lolwhathefun.html
-cat > 100precent.html
-cat > linuxchromeosgaming.html
-cat > webbrowser.html
-cat > schoolproblem.html
-cat > uranus.html
-cat > facebook.html
-cat > enderman.html
-cat > odysee.html
-cat > momsbithenaboutlifedazblack.html
-cat > beingacontentcreatorisexhausting.html
-cat > monsterscrashadams.html
-cat > badexampleofelseifstatements.html
-cat > nebulamaingoal.html
-cat > simswapstopusingsms2mfa.html
-cat > me.html
-cat > g1andg2driverlicense.html
-cat > tearswithjoyemoji.html
-cat > helpyouunderstandlinux.html
-cat > decrepitos.html
-cat > emojithataytclipscantunderstand.html
-cat > noodle.html
-cat > curiousgeorge.html
-cat > dotdotdot.html
-cat > cucumber.html
+touch headsupbirthdaysecurityquestions.html
+touch youcanhaveyourcakeandeatittoo.html
+touch end2endencryption.html
+touch depression.html
+touch buffer.html
+touch qemukvm.html
+touch entropydataset.html
+touch dowhatyouenjoyinyourlife.html
+touch oldformofpemdas.html
+touch backup.html
+touch graphicsapi.html
+touch compilekernel.html
+touch hackintosh.html
+touch iosdevelopment.html
+touch bittorrent.html
+touch tracker.html
+touch datayoureproducecandictatethelifegoingforward.html
+touch inordertofunctiontheworldwecreated.html
+touch downloadingfromyourservice.html
+touch privacyisabasichumanright.html
+touch idontcarebutdocare.html
+touch ipaddress.html
+touch cache.html
+touch macros.html
+touch adminprivileges.html
+touch badportforwarding.html
+touch 18.html
+touch executingfiles.html
+touch encryptionkeys.html
+touch wo.html
+touch relationships.html
+touch firewall.html
+touch billc11billc10.html
+touch masturbation.html
+touch donthelp.html
+touch appbased2fa.html
+touch sudoplusroot.html
+touch woof.html
+touch cpu.html
+touch protectyourdata.html
+touch softwareemulation.html
+touch callitanight.html
+touch linda.html
+touch supplychainattack.html
+touch androidrgbcolourspace.html
+touch 5muslimprayers.html
+touch sellingsoftwareandopensource.html
+touch rosettatranslatesx86toarm.html
+touch youtubecsai.html
+touch preventphisingemailscams.html
+touch ilysmidkhtf.html
+touch whyusanantiviruswhenthereiswindowsdefender.html
+touch howtosetupavpnongtaonline.html
+touch eh.html
+touch netflixareyoustillwatchingsomeonesdaughter.html
+touch dmcaexception.html
+touch 30virtualmachinespreformance.html
+touch hahaha.html
+touch freedominternet.html
+touch moralargument.html
+touch ithinkthatsbad.html
+touch tics.html
+touch firepit.html
+touch havingmultiplechoices.html
+touch humantrafficking.html
+touch ttyl.html
+touch cpuemulation.html
+touch nevershootinorder.html
+touch perspective.html
+touch aiandmachinelearning.html
+touch privatecomputecore.html
+touch videogamealive.html
+touch ddos.html
+touch macaddress.html
+touch schoolstudentnames.html
+touch pciexpressslot.html
+touch compatibiltylayer.html
+touch copyrightandtrademark.html
+touch edwardsnowden
+touch packetloss.html
+touch patience.html
+touch ifyoufollowyourpassionitllleadtosuccess.html
+touch ispiracymorallyok.html
+touch fivefeaturesofdatawarehousing.html
+touch jsonmetadata.html
+touch cyberattack.html
+touch neverdownloadanythingfromotherswithoutsendingitthroughsomethinglikevirustotal.html
+touch privacyisgettingrazarthin.html
+touch md5checksum.html
+touch dataismoreworthhangold.html
+touch mostcomputerscanrunavmextrasecurity.html
+touch sexeducation.html
+touch maskbankingdetails.html
+touch literally.html
+touch suckstobealinuxuser.html
+touch dazwatcheshorror.html
+touch ingamedoxxer.html
+touch job.html
+touch trustlevelcolourcoded.html
+touch weewoo.html
+touch mostdo.html
+touch favouritememoriessantaclause.html
+touch twitchterrified.html
+touch macros.html
+touch muta.html
+touch beagoodpersion.html
+touch surveysaresketchy.html
+touch youserious.html
+touch lemon.html
+touch mentaloutlawprivacy.html
+touch suckitoffandthrowitaway.html
+touch linuxmonolithickernel.html
+touch mousesoftware.html
+touch usingproprietarysoftware.html
+touch lolwhathefun.html
+touch 100precent.html
+touch linuxchromeosgaming.html
+touch webbrowser.html
+touch schoolproblem.html
+touch uranus.html
+touch facebook.html
+touch enderman.html
+touch odysee.html
+touch momsbithenaboutlifedazblack.html
+touch beingacontentcreatorisexhausting.html
+touch monsterscrashadams.html
+touch badexampleofelseifstatements.html
+touch nebulamaingoal.html
+touch simswapstopusingsms2mfa.html
+touch me.html
+touch g1andg2driverlicense.html
+touch tearswithjoyemoji.html
+touch helpyouunderstandlinux.html
+touch decrepitos.html
+touch emojithataytclipscantunderstand.html
+touch noodle.html
+touch curiousgeorge.html
+touch dotdotdot.html
+touch cucumber.html
