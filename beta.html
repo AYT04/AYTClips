@@ -1,29 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>YouTube Video Player</title>
-  <style>
-    .video-container {
-      position: relative;
-      width: 100%;
-      padding-bottom: 56.25%; /* Aspect ratio for 16:9 videos */
-    }
-    .video-container iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter-like Video UI Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .tweet {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .tweet-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .tweet-header img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .tweet-content {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio (adjust as needed for other ratios) */
+            overflow: hidden;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .tweet-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #888;
+            font-size: 14px;
+        }
+        .tweet-footer span {
+            margin-right: 20px;
+        }
+        .tweet-actions {
+            display: flex;
+            align-items: center;
+        }
+        .tweet-actions a {
+            color: #888;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
-  <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/N7ntTjFigOM?si=XsGVdY5Max1aLJ9o&amp;clip=Ugkxp1T4u_m0rPZOPKHPSsk82p9VQ_6NpDKB&amp;clipt=EL72HxjA3iE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bR2qUXmqgv4?si=QEQFAfeNA1ma7ZlM&amp;clip=Ugkx5gPkNv7Erd6rfsukyrW2IsaT9QPW4m9a&amp;clipt=EICmIRiYmyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="tweet">
+        <div class="tweet-header">
+            <img src="#" alt="Profile Picture">
+            <h3>AYT04</h3>
+            <span>@ayt04@github.com</span>
+        </div>
+        <div class="tweet-content">
+            <p>Another tweet with a different video:</p>
+            <div class="video-container">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/bR2qUXmqgv4?si=QEQFAfeNA1ma7ZlM&amp;clip=Ugkx5gPkNv7Erd6rfsukyrW2IsaT9QPW4m9a&amp;clipt=EICmIRiYmyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PIAeTUlT-IM?si=MCYBoC4LLVkgTEn-&amp;clip=Ugkxfc6s47bXVJjvN63wYswYNVER3sSpzIDX&amp;clipt=EJf2Axiv6wQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -36,7 +95,19 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/a2YMZvgc29A?si=-bVZXcoUDelbDgJJ&amp;clip=UgkxWdQ81TgWVhVi2MuqCFlZ4iY8S5Q7sRxH&amp;clipt=ELvxGRjZohs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yChe0kxywbo?si=pWNR6WkO6EQaMnop&amp;clip=UgkxRShO8ohdMaRkFqud51YJ77ap6ik4tBOg&amp;clipt=EKPRHRj2lh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
+            </div>
+        </div>
+        <div class="tweet-footer">
+            <span>Posted: June 26, 2024</span>
+            <div class="tweet-actions">
+                <a href="#">Reply</a>
+                <a href="#">Retweet</a>
+                <a href="#">Like</a>
+            </div>
+        </div>
+    </div>
 
-  </body>
+    <!-- Add more tweets with videos as needed -->
+
+</body>
 </html>
