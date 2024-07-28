@@ -1,22 +1,6 @@
-# AYTClips - Watch, Listen and Learn  
+# AYTClips - Watch, Listen and Learn
 
-### AYTClips Search Our Library of Clips!
-
-
------------------------------------------
-
-[Fediverse Account! (Currently Centralized)](https://threads.net/@superninjahomie1) [Contact](mailto:vxytllcbusinses@gmail.com) [©](./WhatYearIsIt.js)
-
-  
-  
-
-Tutorials about Computer Studies
---------------------------------
-
-  
-![AYT04](https://yt3.googleusercontent.com/3CQAiWYlAgJf8cznr4wPE19Mj-SkiZXCyqT9gFDm6EFBVrBFprWYoCKq27EuPrkWnTeIbmf22A=s160-c-k-c0x00ffffff-no-rj)[@youtube.com/videos](https://www.youtube.com/@AYT04/videos)
-
-## JavaScript Used:
+## JS Used:
 
 ```js
   // Documenting my Journey...
