@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AYTClips Creators RSS</title>
-    <description>A collection of popular YouTube channels.</description>
+    <description>Content Creators RSS</description>
     <link>https://www.example.com/youtube-channels/</link>
-    <atom:link href="https://www.example.com/youtube-channels/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ayt04.github.io/rss.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>YeahMad</title>

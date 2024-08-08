@@ -2,7 +2,7 @@
   "name": "AYTClips",
   "productName": "Clips",
   "description": "Browse YouTube Clips via AYTClips!",
-  "keywords": [],
+  "keywords": ["clips","youtube","computers","linux","hardware","software","git","gaming","programming"],
   "main": "./main.js",
   "version": "1.0.0",
   "author": "AddisonYT04",
