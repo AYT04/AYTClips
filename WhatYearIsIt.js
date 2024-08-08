@@ -5,4 +5,4 @@
   var currentYear = currentDate.getFullYear();
   
     // Display the current year on the web page
-  document.write("AYTClips 2004-" + currentYear);
+  document.write("AYT04 2004-" + currentYear);
