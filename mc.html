@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMLCraft</title>
+    <style>
+    /* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #87CEEB; /* Sky blue background */
+}
+
+#gameContainer {
+    position: relative;
+}
+
+#gameCanvas {
+    border: 2px solid #000;
+    background-color: #7CFC00; /* Grass green */
+}
+
+    </style>
+</head>
+<body>
+    <div id="gameContainer">
+        <canvas id="gameCanvas" width="600" height="400"></canvas>
+    </div>
+    <script>
+	    // game.js
+const canvas = document.getElementById('gameCanvas');
+const ctx = canvas.getContext('2d');
+
+// Block size
+const blockSize = 20;
+
+// Create a grid
+const rows = canvas.height / blockSize;
+const cols = canvas.width / blockSize;
+
+// Generate a random position for a block
+function getRandomPosition() {
+    return {
+        x: Math.floor(Math.random() * cols) * blockSize,
+        y: Math.floor(Math.random() * rows) * blockSize
+    };
+}
+
+// Draw a block on the canvas
+function drawBlock(x, y, color) {
+    ctx.fillStyle = color;
+    ctx.fillRect(x, y, blockSize, blockSize);
+}
+
+// Initial block position
+let blockPosition = getRandomPosition();
+
+// Draw the initial state
+function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear canvas
+    drawBlock(blockPosition.x, blockPosition.y, 'brown'); // Draw block (e.g., dirt)
+}
+
+// Handle mouse click to place block
+canvas.addEventListener('click', (event) => {
+    const x = Math.floor(event.offsetX / blockSize) * blockSize;
+    const y = Math.floor(event.offsetY / blockSize) * blockSize;
+    drawBlock(x, y, 'brown'); // Draw a dirt block on click
+});
+
+// Initial draw
+draw();
+    </script>
+</body>
+</html>
