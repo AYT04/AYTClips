@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="./styles.css">
 
 <!-- 
-  AYTClips Version 1.7.2.
+  AYTClips Version 1.7.3.
 
   I will update this as we get closer and closer to the final destination, Stay Tuned
   and I hope you enjoy our journey together as we all improve and make AYTClips the best
@@ -27,13 +27,40 @@
     <form action="#">
       <input type="text" id="clipsearch"
       onkeyup="myFunction()"
-      placeholder="Search Clips..."
-      title="eg, 'backup'...">
+      placeholder="Search Clips...">
     </form>
   </div>
 </div>
+
+<script>
+  function myFunction() {
+      var input, filter, p, ul, li, a, i, txtValue;
+      input = document.getElementById("clipsearch");
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("aytclips");
+      li = ul.getElementsByTagName("li");
+      p = ul.getElementsByTagName("p");
+      for (i = 0; i < li.length; i++) {
+          a = li[i].getElementsByTagName("h3")[0];
+          txtValue = a.textContent || a.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+          } else {
+              li[i].style.display = "none";
+          }
+      }
+  }
+  </script>
   
 <ul id="aytclips">
+<br><br>
+<!-- Something here later in future development.. -->
+ <!-- Something like what Odysee.com has on it's front page. -->
+ <!-- <center>
+  <p>
+    Quote here.
+  </p>
+ </center> -->
 <br><br>
 <li>
   <a href="https://www.youtube.com/embed/tsEWG-VbDAQ?clip=UgkxaQlRwGY2iIogQ3PMk3LnKAgxVTvm1pfE&clipt=EPyKExjC-RU" target="_blank">
@@ -745,39 +772,14 @@
   <h3>Cucumber</h3>
   <p>LinusTechTips</p></a>
 </li>
+<li>
+  <a href="https://www.youtube.com/embed/fkdt-lWU0xg?si=NGxMJQa7hLEaL7Fh&amp;clip=UgkxdrZtHUwz0nfZTh34MO5OJm2Ud_BkLjNS&amp;clipt=EP3fbhjfhHE" target="_blank">
+  <h3>Creeper farm Nostalgia</h3>
+  <p>Taneesha</p></a>
+</li>
 </ul>
 
 <hr>
-
-<!-- 
-  The Script that allows you to search for a clip.
-
-  Pretty Simple to solve. I am planning on making an Android app for AYTClips in the future into my Company App.
-
-  Contact me if you would like to talk to me about my company, wanna join? or just wanna chat about it or anything Business related, sales person for my company or anything like that!
-
-  vxytllcbusiness@gmail.com
- -->
-<script>
-  // Documenting my Journey...
-function myFunction() {
-    var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("clipsearch");
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("aytclips"); // 
-    li = ul.getElementsByTagName("li"); // Catching the Clip Name. // Eg, '<h3>Bad Example of <i>Else If Statements</i>...</h3>'
-    p = ul.getElementsByTagName("p"); // Catching the Creators Name. // Eg, '<p>Crash Adams</p>' // Might not work, feel free to contribute.
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("h3")[0];
-        txtValue = a.textContent || a.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
-        } else {
-            li[i].style.display = "none";
-        }
-    }
-}
-</script>
 
 </body>
 </html>
