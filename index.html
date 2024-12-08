@@ -2,19 +2,6 @@
 <title>AYTClips - Watch, Listen and Learn</title>
 <html>
 <link rel="stylesheet" href="./styles.css">
-
-<!-- 
-  AYTClips Version 1.7.3.
-
-  I will update this as we get closer and closer to the final destination, Stay Tuned
-  and I hope you enjoy our journey together as we all improve and make AYTClips the best
-  we can accomplish.
-
-  For more information, please visit;
-
-  - https://github.com/AYT04/AYTClips/releases/tag/Beta
- -->
-
 <body>
 
 <h1><center>AYTClips Library</h1>
@@ -23,14 +10,39 @@
   <a class="active" href="https://x.com/AddisonYT04">TwiXXer</a>
   <a href="https://github.com/AYT04/AYTClips/wiki">Wiki</a>
   <a href="mailto:vxytllcbusiness@gmail.com">Contact</a>
+  <a href="./twitter.js">Twitter Creators</a>
+  <a href="./youtube.txt">YouTube Creators</a>
   <div class="search-container">
     <form action="#">
       <input type="text" id="clipsearch"
       onkeyup="myFunction()"
-      placeholder="Search Clips...">
+      placeholder="Search Video..">
+      <br>
+      <input type="text" id="ayt04"
+      onkeyup="ayt04()"
+      placeholder="Search Creator..">
     </form>
   </div>
 </div>
+
+<script>
+  function ayt04() {
+      var input, filter, p, ul, li, a, i, txtValue;
+      input = document.getElementById("ayt04");
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("aytclips");
+      li = ul.getElementsByTagName("li");
+      for (i = 0; i < li.length; i++) {
+          a = li[i].getElementsByTagName("p")[0];
+          txtValue = a.textContent || a.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+          } else {
+              li[i].style.display = "none";
+          }
+      }
+  }
+</script>
 
 <script>
   function myFunction() {
@@ -39,7 +51,6 @@
       filter = input.value.toUpperCase();
       ul = document.getElementById("aytclips");
       li = ul.getElementsByTagName("li");
-      p = ul.getElementsByTagName("p");
       for (i = 0; i < li.length; i++) {
           a = li[i].getElementsByTagName("h3")[0];
           txtValue = a.textContent || a.innerText;
@@ -50,17 +61,9 @@
           }
       }
   }
-  </script>
+</script>
   
 <ul id="aytclips">
-<br><br>
-<!-- Something here later in future development.. -->
- <!-- Something like what Odysee.com has on it's front page. -->
- <!-- <center>
-  <p>
-    Quote here.
-  </p>
- </center> -->
 <br><br>
 <li>
   <a href="https://www.youtube.com/embed/tsEWG-VbDAQ?clip=UgkxaQlRwGY2iIogQ3PMk3LnKAgxVTvm1pfE&clipt=EPyKExjC-RU" target="_blank">
@@ -776,6 +779,11 @@
   <a href="https://www.youtube.com/embed/fkdt-lWU0xg?si=NGxMJQa7hLEaL7Fh&amp;clip=UgkxdrZtHUwz0nfZTh34MO5OJm2Ud_BkLjNS&amp;clipt=EP3fbhjfhHE" target="_blank">
   <h3>Creeper farm Nostalgia</h3>
   <p>Taneesha</p></a>
+</li>
+<li>
+  <a href="https://www.youtube.com/embed/aI4KE1HwDuE?si=irM4fR1dq3lV4Y-K&amp;clip=UgkxgsraGYEq_wENBTZVjvasAAVB-oP0nbY1&amp;clipt=ELT5MBj6lzM" target="_blank"></a>
+  <h3>Pay with Money, not Data!</h3>
+  <p>Louis Rossmann</p>
 </li>
 </ul>
 
